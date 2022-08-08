@@ -1,0 +1,8 @@
+{
+  "/users*": "/600/users$1",
+  "/income-item*": "/600/income-item$1",
+  "/expenditure-item*": "/600/expenditure-item$1",
+  "/account*": "/600/account$1",
+  "/monthly-allocation*": "/600/monthly-allocation$1",
+  "/balance-sheet*": "/664/balance-sheet$1"
+}
