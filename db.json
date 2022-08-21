@@ -49,26 +49,34 @@
   "account": [
     {
       "userId": 6,
-      "title": "帳戶A",
+      "title": "生活費用",
       "initialMoney": 0,
-      "monthlyAllocation": 0,
-      "currentMoney": 8800,
+      "monthlyAllocation": 20000,
+      "currentMoney": 20000,
       "id": 1
     },
     {
       "userId": 6,
       "title": "旅遊基金",
       "initialMoney": 0,
-      "monthlyAllocation": 0,
+      "monthlyAllocation": 10000,
       "currentMoney": 10000,
       "id": 2
+    },
+    {
+      "userId": 6,
+      "title": "醫療基金",
+      "initialMoney": 0,
+      "monthlyAllocation": 0,
+      "currentMoney": 0,
+      "id": 3
     }
   ],
   "monthly-allocation": [
     {
       "userId": 6,
       "fixedIncome": 30000,
-      "date": "28",
+      "date": "15",
       "isEnable": 1,
       "id": 1
     }
@@ -77,119 +85,30 @@
     {
       "userId": 6,
       "category": "income",
-      "year": "2022",
+      "year": 2022,
       "month": "08",
-      "day": "08",
-      "money": 2000,
+      "day": "15",
+      "money": 20000,
       "item": "薪資",
-      "account": "帳戶A",
-      "time": "13:35",
-      "title": "13:35 帳戶A 薪資 2000",
+      "account": "生活費用",
+      "time": "00:00",
+      "title": "自動匯入 00:00 生活費用 薪資 20000",
+      "isAutomaticImport": 1,
       "id": 1
     },
     {
       "userId": 6,
       "category": "income",
-      "year": "2022",
+      "year": 2022,
       "month": "08",
-      "day": "08",
-      "money": 3000,
-      "item": "投資",
-      "account": "帳戶A",
-      "time": "13:36",
-      "title": "13:36 帳戶A 投資 3000",
-      "id": 2
-    },
-    {
-      "userId": 6,
-      "category": "income",
-      "year": "2022",
-      "month": "08",
-      "day": "08",
-      "money": 1000,
-      "item": "投資",
-      "account": "帳戶A",
-      "time": "13:36",
-      "title": "13:36 帳戶A 投資 1000",
-      "id": 3
-    },
-    {
-      "userId": 6,
-      "category": "income",
-      "year": "2022",
-      "month": "08",
-      "day": "08",
-      "money": 1000,
-      "item": "投資",
-      "account": "帳戶A",
-      "time": "13:36",
-      "title": "13:36 帳戶A 投資 1000",
-      "id": 4
-    },
-    {
-      "userId": 6,
-      "category": "income",
-      "year": "2022",
-      "month": "08",
-      "day": "08",
-      "money": 200,
-      "item": "薪資",
-      "account": "旅遊基金",
-      "time": "13:36",
-      "title": "13:36 旅遊基金 薪資 200",
-      "id": 5
-    },
-    {
-      "userId": 6,
-      "category": "income",
-      "year": "2022",
-      "month": "08",
-      "day": "06",
-      "money": 1000,
-      "item": "薪資",
-      "account": "帳戶A",
-      "time": "15:48",
-      "title": "15:48 帳戶A 薪資 1000",
-      "id": 6
-    },
-    {
-      "userId": 6,
-      "category": "expenditure",
-      "year": "2022",
-      "month": "08",
-      "day": "09",
-      "money": 200,
-      "item": "早餐",
-      "account": "旅遊基金",
-      "time": "16:15",
-      "title": "16:15 旅遊基金 早餐 200",
-      "id": 7
-    },
-    {
-      "userId": 6,
-      "category": "income",
-      "year": "2022",
-      "month": "08",
-      "day": "10",
+      "day": "15",
       "money": 10000,
-      "item": "贊助",
-      "account": "旅遊基金",
-      "time": "14:34",
-      "title": "14:34 旅遊基金 贊助 10000",
-      "id": 8
-    },
-    {
-      "userId": 6,
-      "category": "income",
-      "year": "2022",
-      "month": "07",
-      "day": "10",
-      "money": 800,
       "item": "薪資",
-      "account": "帳戶A",
-      "time": "14:48",
-      "title": "14:48 帳戶A 薪資 800",
-      "id": 9
+      "account": "旅遊基金",
+      "time": "00:00",
+      "title": "自動匯入 00:00 旅遊基金 薪資 10000",
+      "isAutomaticImport": 1,
+      "id": 2
     }
   ]
 }
