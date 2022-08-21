@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server ./db.json -m ./node_modules/json-server-auth -r ./routes.json"
+    "start": "node server.js",
+    "dev": "json-server ./db.json -m ./node_modules/json-server-auth -r ./routes.json"
   },
   "author": "",
   "license": "ISC",
