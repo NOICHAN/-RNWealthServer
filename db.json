@@ -52,7 +52,7 @@
       "title": "生活費用",
       "initialMoney": 0,
       "monthlyAllocation": 20000,
-      "currentMoney": 20000,
+      "currentMoney": 18900,
       "id": 1
     },
     {
@@ -68,7 +68,7 @@
       "title": "醫療基金",
       "initialMoney": 0,
       "monthlyAllocation": 0,
-      "currentMoney": 0,
+      "currentMoney": 6000,
       "id": 3
     }
   ],
@@ -109,6 +109,45 @@
       "title": "自動匯入 00:00 旅遊基金 薪資 10000",
       "isAutomaticImport": 1,
       "id": 2
+    },
+    {
+      "userId": 6,
+      "category": "expenditure",
+      "year": "2022",
+      "month": "08",
+      "day": "27",
+      "money": 1000,
+      "item": "午餐",
+      "account": "生活費用",
+      "time": "11:10",
+      "title": "11:10 生活費用 午餐 1000",
+      "id": 3
+    },
+    {
+      "userId": 6,
+      "category": "income",
+      "year": "2022",
+      "month": "08",
+      "day": "27",
+      "money": 6000,
+      "item": "投資",
+      "account": "醫療基金",
+      "time": "11:14",
+      "title": "11:14 醫療基金 投資 6000",
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "category": "expenditure",
+      "year": "2022",
+      "month": "08",
+      "day": "27",
+      "money": 100,
+      "item": "早餐",
+      "account": "生活費用",
+      "time": "11:15",
+      "title": "11:15 生活費用 早餐 100",
+      "id": 5
     }
   ]
 }
